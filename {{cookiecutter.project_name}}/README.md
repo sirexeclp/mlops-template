@@ -1,25 +1,22 @@
 # {{cookiecutter.project_name}}
 
-Project created with MLOps-Template cookiecutter. For more info: https://mlopsstudygroup.github.io/mlops-guide/
+Welcome to your new MLOps-Project, created with the [KISZ-MLOPs-Template](https://github.com/sirexeclp/mlops-template) cookiecutter.
+This Template is based on: https://github.com/mlops-guide/mlops-template
+For more info visit: https://mlopsstudygroup.github.io/mlops-guide/
 
+This template set up the following things for you:
 
-## 📋 Requirements
+1. Creating the project file structure
+2. Initializing a fresh git repo
+3. Creating a new python venv
+4. Installing some basic python requirements
+5. Setting up pre-commit hooks
 
-* Python3 and pip
+## 🏃🏻 Running The Project
 
-## 🏃🏻 Running Project
+### ✅ Pre-commit Hooks
 
-
-### ✅ Pre-commit Testings
-
-In order to activate pre-commit testing you need ```pre-commit```
-
-Installing pre-commit on your local repository. Keep in mind this creates a Github Hook.
-```
-pre-commit install
-```
-
-Now every time you make a commit, it will run some tests defined on ```.pre-commit-config.yaml``` before allowing your commit.
+Every time you make a commit, it will run some tests defined on ```.pre-commit-config.yaml``` before allowing your commit.
 
 **Example**
 ```
@@ -28,7 +25,6 @@ $ git commit -m "Example commit"
 black....................................................................Passed
 pytest-check.............................................................Passed
 ```
-
 
 ### ⚗️ Using DVC
 
