@@ -4,7 +4,9 @@ git init
 
 python3 -m venv venv
 source ./venv/bin/activate
-pip3 install -r requirements.txt
+echo "Installing the following python dependencies using pip"
+cat requirements.txt
+pip3 install -q -r requirements.txt
 
 pre-commit install
 
