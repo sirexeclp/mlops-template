@@ -1,13 +1,12 @@
-scikit-learn>=0.23
+# data-science
 pandas
 seaborn
 matplotlib
-joblib
 numpy
-ibm_watson_machine_learning
 pyyaml
-{% if cookiecutter.use_pytest == 'y' -%}
+
+# dev-ops
 pytest
 pytest-dependency
-{%- endif %}
 pre-commit
+black
