@@ -12,6 +12,12 @@ pip3 install -q -r requirements.txt
 echo "Installing git pre-commit hooks"
 pre-commit install
 
+echo "Initializing LFS"
+git lfs install
+
+echo "Initializing DVC"
+dvc init
+
 echo "Creating initial git commit"
 git add .
 git commit -m "init"
