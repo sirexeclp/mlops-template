@@ -1,13 +1,11 @@
-#!/usr/bin/env python
-
-# Example Tests
-
-import pytest
+"""Example Tests"""
 
 
-def capital_case(x):
-    return x.capitalize()
+def capital_case(value):
+    """Capitalize the given string."""
+    return value.capitalize()
 
 
 def test_capital_case():
+    """Test the capital_case function."""
     assert capital_case("semaphore") == "Semaphore"

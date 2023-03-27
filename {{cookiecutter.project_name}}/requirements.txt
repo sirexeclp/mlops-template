@@ -11,3 +11,4 @@ pytest-dependency
 pre-commit
 black
 dvc
+pylint
