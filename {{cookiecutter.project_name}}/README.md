@@ -22,8 +22,13 @@ Every time you make a commit, it will run some tests defined on ```.pre-commit-c
 ```
 $ git commit -m "Example commit"
 
+isort (python)...........................................................Passed
 black....................................................................Passed
-pytest-check.............................................................Passed
+trim trailing whitespace.................................................Passed
+fix end of files.........................................................Passed
+pytests..................................................................Passed
+pylint...................................................................Passed
+
 ```
 
 ### ⚗️ Using DVC
