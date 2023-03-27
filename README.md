@@ -1,7 +1,7 @@
 # mlops-template
 🍪 Cookiecutter template for MLOps Project based on the MLOps Guide
 
-Example proejct: https://github.com/MLOPsStudyGroup/dvc-gitactions
+Example project: https://github.com/MLOPsStudyGroup/dvc-gitactions
 
 This template can be used to develop a project based on the MLOps guide: https://mlopsstudygroup.github.io/mlops-guide/
 
