@@ -5,8 +5,9 @@ matplotlib
 numpy
 pyyaml
 
-# dev-ops
+# ml-ops
 pytest
 pytest-dependency
 pre-commit
 black
+dvc
